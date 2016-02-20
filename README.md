@@ -1,7 +1,13 @@
-# votingapp
+# VotingApp (updated)
 voting react+redux app example from the excellent tutorial: http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
 
-These are the changes from the tutorial:
+## Screenshots
+![Screenshot 1](screenshots/votingapp_ss1.png)
+![Screenshot 2](screenshots/votingapp_ss2.png)
+![Screenshot 3](screenshots/votingapp_ss3.png)
+![Screenshot 4](screenshots/votingapp_ss4.png)
+
+## Changes
 * package.json is updated to include the latest versions (using npm-check-updates)
 * router logic is updated to the latest react-router conventions
 * all exercises provided at the end of the tutorial are implemented
@@ -12,8 +18,9 @@ These are the changes from the tutorial:
 * webpack will be installed locally
 * switched deprecated autoprefixer with the postcss loader
 
-To run: "npm run start" in both projects (client and server)
-
-"npm run start2" in server project starts a nodemon server instead.
-
-
+## Instructions
+```bash
+cd voting-server; npm install; npm run start
+cd voting-client; npm install; npm run start
+```
+note: "`npm run start2`" in server starts a nodemon server instead.
